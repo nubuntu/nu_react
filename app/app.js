@@ -30,8 +30,6 @@ nu.widget('nubuntu.react',{
             }
         }
         AppRegistry.registerComponent(this.options.app_name, () => c)
-        if(update)
-            this.component.forceUpdate();
     },
     pages : {
         home : {
