@@ -11,6 +11,7 @@ import './styles'
 import './app/splashscreen'
 
 nu.react({
+    app_name    : 'nu_react',
     default_page : 'splashscreen'
 });
 

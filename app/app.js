@@ -29,7 +29,7 @@ nu.widget('nubuntu.react',{
                     return self.pages[self.current_page].did_mount.apply(self);
             }
         }
-        AppRegistry.registerComponent('test', () => c)
+        AppRegistry.registerComponent(this.options.app_name, () => c)
         if(update)
             this.component.forceUpdate();
     },
