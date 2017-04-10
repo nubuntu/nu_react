@@ -10,10 +10,10 @@ const splashscreen = require('../img/splashscreen.png');
 nu.extend(true,nu.nubuntu.react.prototype,{
     pages : {
         splashscreen : {
-            will_mount : function (component) {
+            will_mount : function () {
                 var self = this;
                 setTimeout(function(){
-                    self.go_to('home',component);
+                    self.go_to('home');
                 },3000);
             },
             render : function () {
